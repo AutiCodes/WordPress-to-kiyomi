@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: WordPress naar kiyomi
+Plugin Name: WordPress naar Kiyomi
 Plugin URI: https://github.com/AutiCodes/WordPress-to-Kiyomi
 Description: Deze plugin stuurt nieuwe leden aanmeldingen naar kiyomi over een API
 Version: 1.0

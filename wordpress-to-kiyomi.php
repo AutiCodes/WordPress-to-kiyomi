@@ -41,7 +41,7 @@ function handleNewMemberSubmit(): void
             'has_drone_a3' => sanitize_text_field($_POST['drone_brevet_a3']) ?? 0,
             'rdw_number' => sanitize_text_field($_POST['rdw_number']) ?? 0,
             'is_member_of_other_club' => sanitize_text_field($_POST['other_club_text']) ?? 0,
-            'KNVvl' => sanitize_text_field($_POST['knvvl_text']),
+            'knvvl' => sanitize_text_field($_POST['knvvl_text']),
             'wanna_be_member_at' => date('Y-m-d', strtotime(sanitize_text_field($_POST['wanna_be_member_at']))),
             'api_key' => KIYOMI_API_KEY,
         );
